@@ -1,0 +1,20 @@
+{
+  "name": "stockbal.github.io",
+  "version": "1.0.0",
+  "description": "DevEpos Homepage",
+  "authors": {
+    "name": "Ludwig Stockbauer-Muhr",
+    "email": "stocki87@gmail.com"
+  },
+  "repository": "https://github.com/stockbal/stockbal.github.io",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2"
+  }
+}
