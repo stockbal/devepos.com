@@ -36,16 +36,34 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'About',
+        link: '/about/'
+      },
+      {
         text: 'Projects',
         link: '/projects/'
+      },
+      {
+        text: 'eclipse Update Sites',
+        link: 'https://eclipse.devepos.com'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/projects/': [
         {
-          title: 'Guide',
+          title: 'ABAP DB Browser',
           collapsable: false,
-          children: ['', 'using-vue']
+          children: [['abap-db-browser/', 'Introduction']]
+        },
+        {
+          title: 'ABAP Search and Analysis Tools',
+          collapsable: false,
+          children: [['abap-search-tools/', 'Introduction']]
+        },
+        {
+          title: 'ABAP Tags',
+          collapsable: false,
+          children: [['abap-tags/', 'Introduction']]
         }
       ]
     }

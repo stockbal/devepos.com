@@ -10,7 +10,7 @@ features:
   details: ADT Plugin for searching/analysing ADT objects
 - title: ABAP Tags
   details: ADT Plugin for tagging ADT objects
-- title: DB Browser
+- title: ABAP DB Browser
   details: SAP GUI Transaction for searching/analysing database content
-footer: Made by Ludwig Stockbauer-Muhr with ❤️
+footer: Copyright © 2021-present Ludwig Stockbauer-Muhr
 ---
